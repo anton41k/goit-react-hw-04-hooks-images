@@ -77,10 +77,10 @@ export default function Component() {
   };
 
   const toggleModal = (img) => {
-    const imgModal = img
-      ? { imgUrl: img.largeImageURL, imgAlt: img.tags }
-      : null;
-    setImgModal(imgModal);
+    if (img) {
+      const imgModal = { imgUrl: img.largeImageURL, imgAlt: img.tags };
+      setImgModal(imgModal);
+    }
     setShowModal(!showModal);
   };
 
