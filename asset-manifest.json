@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/goit-react-hw-04-hooks-images/static/js/main.906a66e0.chunk.js",
+    "main.js.map": "/goit-react-hw-04-hooks-images/static/js/main.906a66e0.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-04-hooks-images/static/js/runtime-main.b55a6f12.js",
+    "runtime-main.js.map": "/goit-react-hw-04-hooks-images/static/js/runtime-main.b55a6f12.js.map",
+    "index.html": "/goit-react-hw-04-hooks-images/index.html"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b55a6f12.js",
+    "static/js/main.906a66e0.chunk.js"
+  ]
+}
