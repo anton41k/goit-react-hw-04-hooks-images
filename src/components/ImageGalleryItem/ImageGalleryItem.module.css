@@ -1,0 +1,17 @@
+.photo_card {
+  transition: transform var(--animation-duration) var(--timing-function);
+  background-color: rgba(94, 89, 89, 0.5);
+  max-width: 455px;
+  height: 340px;
+}
+
+.photo_card:hover {
+  transform: scale(1.03);
+  background-color: rgba(94, 89, 89);
+}
+
+.photo_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

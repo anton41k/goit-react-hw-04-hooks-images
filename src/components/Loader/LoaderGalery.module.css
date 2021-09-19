@@ -1,0 +1,15 @@
+.container_loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+  z-index: 8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-bgc-modal);
+}
